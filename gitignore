@@ -1,0 +1,50 @@
+# Log files
+*.log
+/var/log/
+
+# Puppet
+*.lock
+.tmp/
+.librarian/
+Puppetfile.lock
+
+# SSH Keys (IMPORTANT - never commit private keys!)
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+*.ppk
+.ssh/
+
+# System files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Editor files
+.vscode/
+.idea/
+*.sublime-*
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Credentials
+.env
+*.credentials
+secrets.yml
+passwords.txt
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Archives
+*.tar.gz
+*.zip
+*.7z
